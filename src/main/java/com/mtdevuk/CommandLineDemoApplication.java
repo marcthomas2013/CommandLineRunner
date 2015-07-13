@@ -22,7 +22,7 @@ public class CommandLineDemoApplication implements CommandLineRunner {
 
     @Override
     public void run(String... commandLineParams) throws Exception {
-        System.out.println("Parameter passed into name was: " + nameParameter);
+        System.out.println("Name parameter value: " + nameParameter);
 
         for (String commandLine : commandLineParams) {
             System.out.println(commandLine);
